@@ -1,69 +1,142 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Test Personal Website: Please work</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Chelcey's Website</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .icon-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      position: relative;
+      margin-top: 50px;
+    }
+
+    .icon-container a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .icon-container img {
+      width: 75px;
+      height: 75px;
+      border-radius: 50%;
+    }
+
+    .icon-name {
+      margin-top: 5px;
+    }
+
+    .additional-icon {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .additional-icon img {
+      width: 150px; /* Adjust the width as needed */
+      height: auto; /* Automatically adjust the height */
+    }
+
+    .resume-title {
+      font-size: 80px;
+      font-weight: 549;
+      font-family: 'Product Sans', Arial, sans-serif;
+      letter-spacing: -10px;
+      text-align: center;
+      margin: 0;
+      color: black;
+    }
+
+    .resume-button {
+      text-align: center;
+      margin-top: -150px;
+    }
+
+    .resume-button a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4885ed;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-    </div>
-    <div class="navigation">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#progress">Coding Progress</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#languages">Coding Languages</a></li>
-      </ul>
-    </div>
-    <div class="search-bar">
-      <form action="https://www.google.com/search" method="GET" target="_blank">
-        <input type="text" name="q" placeholder="Search Google">
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
-    </div>
-  </header>
+  <div class="additional-icon">
+    <span class="resume-title">
+      <font color="#4885ed">C</font>
+      <font color="#db3236">h</font>
+      <font color="#f4c20d">e</font>
+      <font color="#4885ed">l</font>
+      <font color="#3cba54">c</font>
+      <font color="#db3236">e</font>
+      <font color="#4885ed">y</font>
+      &nbsp;
+      <font color="#4885ed">D</font>
+      <font color="#db3236">o</font>
+    </span>
+    <p style="font-weight: 100; font-size: 24px; font-family: 'Product Sans', Arial, sans-serif; letter-spacing: 1px; text-align: center; color: black; margin-top: 20px;">
+      <strong>Current:</strong> UCSD Student
+    </p>
+    <p style="font-weight: 100; font-size: 24px; font-family: 'Product Sans', Arial, sans-serif; letter-spacing: 1px; text-align: center; color: black;">
+      <strong>Major:</strong> Cognitive Science B.S. with a Specialization in Design and Interaction
+    </p>
+     <p style="font-weight: 100; font-size: 24px; font-family: 'Product Sans', Arial, sans-serif; letter-spacing: 1px; text-align: center; color: black;">
+      <strong>Minor:</strong> Computer Science
+    </p>
+    <p style="font-weight: 100; font-size: 24px; font-family: 'Product Sans', Arial, sans-serif; letter-spacing: 1px; text-align: center; color: black;">
+      <strong>Expected Grad:</strong> 2024
+    </p>
+  </div>
 
-  <main>
-    <section id="about">
-      <h1>About Me</h1>
-      <p>Student at UCSD studying Cognitive Science with emphasis and Design.</p>
-    </section>
+  <div class="icon-container">
+    <a href="https://chelcey.github.io/Github-Practice/abcProjects">
+      <img src="image.png" alt="Icon 1" width="75" height="75" />
+      <div class="icon-name">Icon 1</div>
+    </a>
+    <a href="https://chelcey.github.io/Github-Practice/abcProjects">
+      <img src="image.png" alt="Icon 2" width="75" height="75" />
+      <div class="icon-name">Icon 2</div>
+    </a>
+    <a href="https://chelcey.github.io/Github-Practice/abcProjects">
+      <img src="image.png" alt="Icon 3" width="75" height="75" />
+      <div class="icon-name">Icon 3</div>
+    </a>
+    <a href="https://chelcey.github.io/Github-Practice/abcProjects">
+      <img src="image.png" alt="Icon 4" width="75" height="75" />
+      <div class="icon-name">Icon 4</div>
+    </a>
+    <a href="https://chelcey.github.io/Github-Practice/abcProjects">
+      <img src="image.png" alt="Icon 5" width="75" height="75" />
+      <div class="icon-name">Icon 5</div>
+    </a>
+    <a href="https://chelcey.github.io/Github-Practice/abcProjects">
+      <img src="image.png" alt="Icon 6" width="75" height="75" />
+      <div class="icon-name">Icon 6</div>
+    </a>
+    <a href="https://chelcey.github.io/Github-Practice/abcProjects">
+      <img src="image.png" alt="Icon 7" width="75" height="75" />
+      <div class="icon-name">Icon 7</div>
+    </a>
+  </div>
 
-    <section id="progress">
-      <h1>Coding Progress</h1>
-      <ul>
-        <li>HTML/CSS - 50%</li>
-        <li>C++ - 70%</li>
-        <li>Python - 90%</li>
-      </ul>
-    </section>
-
-    <section id="projects">
-      <h1>Projects</h1>
-      <div class="project">
-        <a href="link-to-project-code" target="_blank">
-          <img src="project-image.jpg" alt="Project Image">
-        </a>
-        <p>Insert project description here.</p>
-      </div>
-    </section>
-
-    <section id="languages">
-      <h1>Coding Languages</h1>
-      <ul>
-        <li>HTML/CSS</li>
-        <li>JavaScript</li>
-        <li>Python</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    
-
-
-
-
+  <div class="resume-button">
+    <a href="#">Resume</a>
+  </div>
+</body>
+</html>
